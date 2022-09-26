@@ -22,10 +22,7 @@ int binarySearch(int arr[], int l, int r, int x)
             r = m - 1; 
     } 
   
-    // if we reach here, then element was 
-    // not present 
-    return -1; 
-} 
+  
   
 int main(void) 
 { 
