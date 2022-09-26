@@ -10,7 +10,7 @@ Check out `good-first-issues` for contributing [here](https://github.com/kaivaly
 </div>
 
 # Author 
- [Kaivalya Yadav](https://github.com/kaivalya98)
+ [Saraswati Sahoo](https://github.com/saraswati258)
 # Rules:
 Don't use filthy words and be welcome for beginners and other people in this community.
 
