@@ -110,3 +110,38 @@ void disp()
 	printf("\n");
 }
 
+void main()
+{
+	int choice,a;
+	second();
+	do
+	{
+		printf("\n\t\t\t\t===============Circular Queue Operation===============\n\n");
+		printf("\n\t\t\t\tEnter Max Size of Queue: ");
+		scanf("%d",&a);
+		n=a;
+		printf("\n\t\t\t\tMax Size Alloted to queue: %d",n);
+		printf("\n\t\t\t\t1.Insert");
+		printf("\n\t\t\t\t2.Delete");
+		printf("\n\t\t\t\t3.Display");
+		printf("\n\t\t\t\t4.Quit");
+		printf("\n\t\t\t\tEnter your choice: ");
+		scanf("%d",&choice);
+		switch(choice)
+		{
+			case 1 :
+				ins();
+				break;
+			case 2 :
+				del();
+				break;
+			case 3:
+				disp();
+				break;
+			case 4:
+				exit(0);
+			default:
+				printf("\n\t\t\t\tInvalid choice!!\n");
+		}
+	}while(choice!=4);
+}
