@@ -21,7 +21,8 @@ int binarySearch(int arr[], int l, int r, int x)
         else
             r = m - 1; 
     } 
-  
+  return -1;
+}
   
   
 int main(void) 
